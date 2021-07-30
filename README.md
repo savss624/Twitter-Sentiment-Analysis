@@ -36,11 +36,11 @@ It is used to convert a collection of text documents to a vector of term/token c
 
 CountVectorizer creates a matrix in which each unique word is represented by a column of the matrix, and each text sample from the document is a row in the matrix. The value of each cell is nothing but the count of the word in that particular text sample.
 
-![vectorizer](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/vectorizer.png)
+![vectorizer](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/Vectorizer.png)
 
 So, we have now vectorized our sting data to numerical values in order to feed it to a machine learning algorithm. We choose Support Vector Machine classifier for this classification since it is very powerful and one of the most common algorithm used in NLP.
 
 ![modeling1](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/modeling1.png)
-
 And also tuned the parameters of the svm model using GridSearchCV to improve its accuracy.
+
 ![modeling2](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/modeling2.png)
