@@ -15,7 +15,7 @@ The given data sets are comprised of very much unstructured tweets which should 
 * Removal of commonly used words (stopwords).
 * Normalization of words.
 
-### Removal of Punctuations and stopwords
+### Removal of Punctuations and Stopwords
 Punctuations will be always a disturbance in NLP specially hashtags and “@” play a major role in tweets. 
 Stopwords (most common words e.g: is, are, have) do not make sense in learning because they don’t have connections with sentiments. 
 
@@ -28,7 +28,7 @@ Lemmatization consider morphological analysis of the words and returns meaningfu
 
 ![data cleaning](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/data%20cleaning.png)
 
-# Vectorization and modeling
+# Vectorization and Modeling
 CountVectorizer is used to transform a given text into a vector on the basis of the frequency (count) of each word that occurs in the entire text.
 It is used to convert a collection of text documents to a vector of term/token counts. It also enables the pre-processing of text data prior to generating the vector representation.
 
