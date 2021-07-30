@@ -8,6 +8,8 @@ Since it is a supervised learning task we are provided with a training data set 
 
 Now we will read the data with pandas.
 
+![data reading](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/data%20exploration.png)
+
 # Data preprocessing and Feature Engineering
 The given data sets are comprised of very much unstructured tweets which should be preprocessed to make an NLP model. In this project, we tried out the following techniques of preprocessing the raw data. For which we'll use a popular python Library ***"NLTK"***.
 * Removal of punctuations.
@@ -24,3 +26,11 @@ So removing them saves the computational power as well as increases the accuracy
 Lemmatization is a normalization technique where list of tokenized words are converted into shorten root words to remove redundancy. Lemmatization is the process of reducing inflected (or sometimes derived) words to their root form.
 
 Lemmatization consider morphological analysis of the words and returns meaningful word in proper form. The output we will get after lemmatization is called ‘lemma’, which is a root word.
+
+![data cleaning](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/data%20cleaning.png)
+
+# Vectorization and modeling
+
+Count Vectorizer is used to transform a given text into a vector on the basis of the frequency (count) of each word that occurs in the entire text.
+It is used to convert a collection of text documents to a vector of term/token counts. It also enables the pre-processing of text data prior to generating the vector representation.
+CountVectorizer creates a matrix in which each unique word is represented by a column of the matrix, and each text sample from the document is a row in the matrix. The value of each cell is nothing but the count of the word in that particular text sample.
