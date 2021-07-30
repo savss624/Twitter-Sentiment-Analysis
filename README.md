@@ -3,7 +3,7 @@
 Natural Language Processing (NLP) is a unique subset of Machine Learning which cares about the real life unstructured data. Although computers cannot identify and process the string inputs, the libraries like NLTK, TextBlob and many others found a way to process string mathematically. Twitter is a platform where most of the people express their feelings towards the current context. As humans, we can guess the sentiment of a sentence whether it is positive or negative. Similarly, here we'll see how to train and develop a simple Twitter Sentiment Analysis supervised learning model using python and NLP libraries.
 
 # Data Exploration
-Since it is a supervised learning task we are provided with a training data set which consists of Tweets labeled with ***"Positive Sentiment"***, ***Neutral Sentiment"*** or ***"Negative Sentiment"*** and a test data set without labels.
+Since it is a supervised learning task we are provided with a training data set which consists of Tweets labeled with ***"Positive Sentiment"***, ***"Neutral Sentiment"*** or ***"Negative Sentiment"*** and a test data set without labels.
 
 Now we will read the data with pandas.
 
@@ -46,4 +46,4 @@ And also tuned the parameters of the svm model using GridSearchCV to improve its
 Since we decided to select the technique of the Natural Language Processing, we have to validate it with the existing training data set before applying to the test data set.
 
 ![report](https://github.com/savss624/Readme-Images/blob/main/Twitter%20Sentiment%20Analysis/report.png)
-An accuracy of 0.93837 is obtained for our training data which is a pretty good score.
+An accuracy of 0.90318 is obtained for our training data.
