@@ -9,7 +9,7 @@ Since it is a supervised learning task we are provided with a training data set 
 Now we will read the data with pandas.
 
 # Data preprocessing and Feature Engineering
-The given data sets are comprised of very much unstructured tweets which should be preprocessed to make an NLP model. In this project, we tried out the following techniques of preprocessing the raw data. For which we'll use a python Library ***"NLTK"***.
+The given data sets are comprised of very much unstructured tweets which should be preprocessed to make an NLP model. In this project, we tried out the following techniques of preprocessing the raw data. For which we'll use a popular python Library ***"NLTK"***.
 * Removal of punctuations.
 * Removal of commonly used words (stopwords).
 * Normalization of words.
@@ -21,3 +21,6 @@ Stopwords (most common words e.g: is, are, have) do not make sense in learning b
 So removing them saves the computational power as well as increases the accuracy of the model.
 
 ### Normalization of words ***( Lemmatization )***
+Lemmatization is a normalization technique where list of tokenized words are converted into shorten root words to remove redundancy. Lemmatization is the process of reducing inflected (or sometimes derived) words to their root form.
+
+Lemmatization consider morphological analysis of the words and returns meaningful word in proper form. The output we will get after lemmatization is called ‘lemma’, which is a root word.
